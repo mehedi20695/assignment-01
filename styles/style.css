@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    font-family: "Azeret Mono", monospace; 
+    font-family: "Azeret Mono"; 
 }
 
 /* navbar styles starts from here */
@@ -255,7 +255,7 @@ body{
     border-radius: 10px;
     background-color: rgba(255, 76, 30, 0.05);
 }
-.my-current-target-first-card-content>h1, p{
+.my-current-target-first-card-content>h1, p, img{
     margin-bottom: 20px;
 }
 .my-current-target-first-card-content>p{
@@ -335,4 +335,20 @@ body{
     cursor: pointer;
 }
 /* support section styles end here */
+
+/* footer styles start from here */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    height: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer styles end here */
 
