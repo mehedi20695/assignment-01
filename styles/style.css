@@ -26,3 +26,44 @@ body{
 }
 
 /* navbar styles ends */
+
+/* banner-section styles starts from here */
+
+.banner-section-container{
+    max-width: 1440px;
+    height: 600px;
+    background-image: url(../assets/Hero-bg.png);
+    margin-top: 30px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image-containner{
+    margin-top: 40px;
+}
+.banner-text-containner>h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.banner-text-containner>p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: center;
+}
+.contact-button{
+    font-size: 20px;
+    padding: 18px 22px 18px 22px;
+    border-radius: 5px;
+    background: rgb(13, 19, 33);
+    margin-top: 20px;
+    margin-left: 210px;
+    color: white;
+}
+
+/* banner-section styles ends */
